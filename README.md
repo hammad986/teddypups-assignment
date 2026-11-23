@@ -16,7 +16,7 @@ Open http://localhost:4173. The static output is written to `dist/` and can be p
 
 ## Push to GitHub
 
-This folder is a local Git repository with the initial commit on `main`. Create an empty repository on GitHub (without a README, `.gitignore`, or license), then run:
+This folder is a local Git repository with the project already committed on `main`. Create an empty repository on GitHub (without a README, `.gitignore`, or license), then run:
 
 ```bash
 git remote add origin https://github.com/<your-account>/teddypups-assignment.git
