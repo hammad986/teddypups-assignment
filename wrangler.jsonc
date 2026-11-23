@@ -1,0 +1,7 @@
+{
+  // Cloudflare Pages project configuration, used by `wrangler pages deploy`.
+  // The Pages project name also becomes the *.pages.dev subdomain.
+  "name": "teddypups-assignment",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-11-20"
+}

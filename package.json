@@ -1,0 +1,13 @@
+{
+  "name": "teddypups-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check src/client.js && node --test",
+    "preview": "python3 -m http.server 4173 --directory dist",
+    "deploy:cloudflare": "npm run build && npx --yes wrangler pages deploy"
+  }
+}
